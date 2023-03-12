@@ -51,7 +51,7 @@ const Message = (message: {
                 </Typography>}
 
                 <ThreeDots
-                    height="25"
+                    height="45"
                     width="50"
                     radius="9"
                     color={message.isUser ? '#8dacb4' : '#28286c'}

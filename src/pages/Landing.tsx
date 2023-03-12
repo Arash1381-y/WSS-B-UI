@@ -18,7 +18,7 @@ const PageContainer = (styled('div'))({
 });
 
 const ChatBoxContainer = (styled('div'))({
-    width: '40%'
+    width: '45%'
 })
 
 
