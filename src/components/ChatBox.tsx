@@ -189,8 +189,9 @@ const ChatBox = () => {
                                     </motion.div>
                                 )
                             } else {
+                                if (mutation.error) message.context = "سوال شمارو به تیم اجرایی منتقل می‌کنم و به زودی پاسخ شما را خواهند داد"
                                 // @ts-ignore
-                                message.context = mutation.data.data.answer;
+                                else message.context = mutation.data.data.answer;
 
                                 return (
                                     <motion.div animate={{x: 10}}>
